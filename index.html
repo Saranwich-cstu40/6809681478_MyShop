@@ -1,47 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyShop</title>
-  <link rel="stylesheet" href="mystyle.css" class="href">
-</head>
-<body>
-  <header>
-    <div class="header-container">
-      <button class="header-homebutton">
-        <img src="resources/Cosmic_logo_minimal_white_cut.png" alt="img">
-        <p>Cosmicshop</p>
-      </button>
-      <nav class="header-nav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Books</a></li>
-          <li><a href="#">Contacts</a></li>
-        </ul>
-      </nav>
-    </div>
-    
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Books</a></li>
-      <li><a href="#">Contacts</a></li>
-    </ul>
-  </nav>
-  <main>
-    <div class="contents-container">
-      <div class="video-container">
-        <video controls src="resources/introduction-video.mp4">
-          content is not supported
-        </video>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyShop</title>
+    <link rel="stylesheet" href="mystyle.css" class="href" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <button class="header-homebutton">
+          <img src="resources/Cosmic_logo_minimal_white_cut.png" alt="img" />
+          <p>Cosmicshop</p>
+        </button>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
       </div>
-      <div class="contexts-container">
-        <h1>About Cosmic shop</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime vero quisquam eius vitae culpa eaque est corporis quia ipsum cupiditate, illum cumque optio quaerat deserunt repellendus, reiciendis hic quod exercitationem?</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="contents-container">
+        <div class="video-container">
+          <video controls src="resources/introduction-video.mp4">
+            content is not supported
+          </video>
+        </div>
+        <div class="contexts-container">
+          <h1>About Cosmic shop</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
+            vero quisquam eius vitae culpa eaque est corporis quia ipsum
+            cupiditate, illum cumque optio quaerat deserunt repellendus,
+            reiciendis hic quod exercitationem?
+          </p>
+        </div>
       </div>
-    </div>
-  </main>
-</body>
+
+      <section class="categories">
+        <div class="categories-title">
+          <h1>Categories</h1>
+        </div>
+
+        <div class="categories-cards-container">
+
+          <a href="my1stcategory.html" class="category-card">
+            <div class="card-image">
+              <img src="resources/atomic-habits.jpg" alt="Anatomic habbits book cover">
+            </div>
+            <div class="card-body">
+              <h3>Self Development</h3>
+              <p>
+                Unlock your potential and build better habits for a more
+                fulfilling life.
+              </p>
+            </div>
+          </a>
+
+          <a href="my2ndcategory.html" class="category-card">
+            <div class="card-image">
+              <img src="resources/kaisen0.webp" alt="Jujutsu kaisen 0 magga cover">
+            </div>
+            <div class="card-body">
+              <h3>Novel & Commic</h3>
+              <p>
+                hihbkknknkjnjkn
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
